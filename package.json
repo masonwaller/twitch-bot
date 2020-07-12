@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "ircv3": "^0.18.5",
+    "ntl": "^5.1.0",
     "twitch": "^3.7.1",
     "twitch-chat-client": "^3.7.3",
     "vue": "^2.6.11"

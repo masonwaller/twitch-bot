@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <ul style= "list-style: none; margin: 0; padding: 0;">
-      <li v-for="msg in messages" :key="msg.tags.get('id')" :style="{background: msg.tags.get('msg-id') === 'highlighted-message' ? 'yellow' : 'transparent'}">
+      <li v-for="msg in messages" :key="msg.tags.get('id')" :style="{background: msg.tags.get('msg-id') === 'highlighted-message' ? 'blue' : 'transparent'}">
         <strong :style="{ 
         color: msg.tags.get('color'), borderColor: '#fff'}">
         {{msg.tags.get('display-name')}}: </strong>
